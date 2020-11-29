@@ -1,7 +1,11 @@
 body {
   font-family: 'Montserrat', sans-serif;
+  /*Text Styling*/
   /*Navbar*/
   /*Row Mods*/
+  /*Jumbotron*/
+  /*Subscribe*/
+  /*Footer*/
   /*Buttons*/ }
   body h1 {
     font-weight: 700;
@@ -23,6 +27,13 @@ body {
     font-weight: 700;
     font-size: 13px;
     color: #242526; }
+  body h5 {
+    font-weight: 700;
+    font-size: 12px;
+    padding-top: 35px; }
+  body h6 {
+    font-weight: 400;
+    font-size: 12px; }
   body p {
     font-weight: 300; }
     body p.hero {
@@ -43,6 +54,18 @@ body {
     body p.pricing {
       font-size: 16px;
       color: #ffffff; }
+    body p.subscribe {
+      background-color: transparent;
+      color: #ffffff;
+      font-weight: 300;
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 40px; }
+    body p.footer {
+      font-weight: 300;
+      font-size: 11px;
+      color: #242526;
+      padding-top: 50px; }
   body ul {
     list-style-image: url(../images/green-check.png);
     list-style-position: inside;
@@ -81,7 +104,10 @@ body {
     body .nav-links.hover {
       text-decoration: underline; }
   body .row {
-    background-color: #0cb3f8; }
+    /*Hero*/
+    /*White Bar*/
+    /*New Big Thing*/
+    /*Pricing*/ }
     body .row.hero {
       background: #0cb3f8;
       padding-left: 5%;
@@ -113,15 +139,55 @@ body {
       background-color: #f5f4f4;
       padding-bottom: 75px; }
     body .row.pricing {
-      background-color: #222222; }
+      background-color: #222222;
+      padding-bottom: 70px; }
     body .row .price {
       background-color: #ffffff;
       border-radius: 5px;
       width: 300px;
-      height: 440px; }
+      height: 440px;
+      margin-bottom: 40px; }
       body .row .price.alt {
         background: #1b8bf9;
         color: #ffffff; }
+  body .jumbotron {
+    box-shadow: inset 0 0 0 100vw rgba(20, 18, 18, 0.5);
+    background: var(--image-url) center center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../images/cliffs.png");
+    color: white; }
+  body .form-control {
+    background-color: rgba(146, 146, 146, 0.3);
+    border: none;
+    border-radius: 5px; }
+  body footer {
+    padding-top: 3rem;
+    background-color: #ffffff; }
+    body footer.footer-nav {
+      margin-bottom: 5rem; }
+    body footer.footer-nav div ul {
+      list-style: none; }
+  body footer .footer-nav-links {
+    color: #242526; }
+  body footer .footer-nav-links:hover {
+    text-decoration: none;
+    border-bottom-style: solid;
+    border-bottom-color: #268df5;
+    color: #268df5;
+    border-bottom-width: 3px; }
+  body footer .social {
+    padding-left: 1rem;
+    width: 15px;
+    height: 15px; }
+  body footer .footer-nav div ul li {
+    font-weight: 700;
+    font-size: 11px;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem; }
   body .btn-transparent {
     margin-left: 10%; }
   body .btn-new {
@@ -138,7 +204,7 @@ body {
     height: 20px;
     box-shadow: 4px 7px 16px 0px rgba(27, 139, 249, 0.4); }
   body .btn-primary {
-    background: #ffffff;
+    background-color: #ffffff;
     color: #242526;
     border: solid 2px;
     border-color: #67b2fb;
@@ -147,3 +213,15 @@ body {
     font-size: 10px;
     width: 150px;
     height: 42px; }
+  body .btn-secondary {
+    background-color: #ffffff;
+    color: #242525;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 10px;
+    width: 150px;
+    height: 38px;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+    margin-bottom: 50px; }
