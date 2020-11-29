@@ -4,11 +4,13 @@
   <head>
     <meta charset="utf-8">
 
-    <title>Week 8</title>
+    <title>Awesome App</title>
 
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -19,16 +21,85 @@
 
   <body>
 
-    <div class="container">
+    <!-- Navbar -->
+    <div class="d-flex flex-column flex-sm-row align-items-center p-3 mb-3 nav container-fluid">
+      <img src="images/white-logo.png" alt="white logo" width="30" height="30">
+      <h5 class="my-0 mr-md-auto">Awesome App</h5>
+      <nav class="col-sm-8 text-right nav-text-middle">
+        <a class="nav-links active" href="#">HOME</a>
+        <a class="nav-links" href="#">ABOUT</a>
+        <a class="nav-links" href="#">FEATURES</a>
+        <a class="nav-links" href="#">CLIENTS</a>
+        <a class="nav-links" href="#">CONTACT</a>
+      </nav>
+    </div>
 
-      <div class="row">
-        <div class="col-12">
-          <h1>Week 8</h1>
+    <div class="container-fluid">
+
+      <!-- Hero Image -->
+      <div class="row hero justify-content-around">
+        <div class="hero-text col-8 float-left">
+          <h1 class="hero">Make It Easy</h1>
+          <p class="hero">See locations and get easy access to messaging, check-in requests and more from your home screen.</p>
+          <button class="btn btn-transparent" id="apple"><img src="images/apple.png" alt="apple logo">&nbsp; DOWNLOAD</button>
+          <a class="learn" href="#">LEARN MORE</a>
+        </div>
+        <div class="col-4 ml-auto">
+          <img src="images/hero-iphone.png" alt="iPhone" class="float-right iphone img-fluid">
+        </div>
         </div>
       </div>
 
-    </div>
+      <!-- New Big Thing -->
+      <div class="row new-thing">
+        <div class="col-12 text-center">
+          <h2>The New Big Thing</h2>
+        </div>
+      </div>
 
+      <!-- Pricing -->
+      <div class="row pricing">
+        <div class="col-sm text-center">
+          <h2 class="alt">Choose License Type</h2>
+          <p class="pricing">Motivating others leads to success whereas inspiring others leads to the most grand greatness.</p>
+        </div>
+      </div>
+      <div class="row pricing justify-content-around">
+        <div class="col-3 price text-center">
+          <h3>$10</h3>
+          <ul>
+            <li>2 GB Disk Space</li>
+            <li>3 Sub Domains</li>
+            <li>12 Database</li>
+            <li>Unlimited Users</li>
+          </ul>
+          <button class="btn-primary">GET STARTED</button>
+        </div>
+        <div class="col-3 price alt text-center">
+          <h3>$19</h3>
+          <ul>
+            <li>10 GB Disk Space</li>
+            <li>5 Sub Domains</li>
+            <li>12 Database</li>
+            <li>Unlimited Users</li>
+          </ul>
+          <button class="btn-primary">TRY NOW</button>
+        </div>
+        <div class="col-3 price text-center">
+          <h3>$39</h3>
+          <ul>
+            <li>50 GB Disk Space</li>
+            <li>20 Sub Domains</li>
+            <li>36 Database</li>
+            <li>Unlimited Users</li>
+          </ul>
+          <button class="btn-primary">GET STARTED</button>
+        </div>
+      </div>
+    </div>
+    <!-- Subscribe Now -->
+
+    <!-- Footer -->
 	</body>
 
 </html>
