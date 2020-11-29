@@ -1,6 +1,8 @@
 body {
   font-family: 'Montserrat', sans-serif;
-  /*Navbar*/ }
+  /*Navbar*/
+  /*Row Mods*/
+  /*Buttons*/ }
   body h1 {
     font-weight: 700;
     font-size: 70px; }
@@ -10,15 +12,17 @@ body {
       padding-top: 145px; }
   body h2 {
     font-weight: 700;
-    font-size: 44px; }
+    font-size: 44px;
+    margin-top: 65px; }
+    body h2.alt {
+      color: #ffffff; }
   body h3 {
     font-weight: 700;
     font-size: 48px; }
   body h4 {
     font-weight: 700;
     font-size: 13px;
-    color: #242526;
-    letter-spacing: 2px; }
+    color: #242526; }
   body p {
     font-weight: 300; }
     body p.hero {
@@ -27,11 +31,18 @@ body {
       max-width: 450px;
       padding-left: 5rem;
       padding-bottom: 100px; }
+    body p.new {
+      font-weight: 300;
+      font-size: 16px; }
+    body p.new-text {
+      color: #747474;
+      font-weight: 400;
+      font-size: 13px;
+      padding-top: 10px;
+      padding-bottom: 60px; }
     body p.pricing {
-      width: 420px;
       font-size: 16px;
-      color: #ffffff;
-      text-align: center; }
+      color: #ffffff; }
   body ul {
     list-style-image: url(../images/green-check.png);
     list-style-position: inside;
@@ -41,11 +52,19 @@ body {
     padding: 20px; }
     body ul img {
       padding-right: 10px; }
+  body a.learn {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 10px;
+    margin-left: 40px; }
   body .nav {
     background-color: #0cb3f8;
     color: #ffffff;
-    margin-bottom: 0;
-    padding-top: 60px;
+    margin-bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 40px;
+    padding-bottom: 40px;
     font-weight: 700;
     font-size: 12px; }
   body .nav img {
@@ -64,22 +83,35 @@ body {
   body .row {
     background-color: #0cb3f8; }
     body .row.hero {
-      background: #0cb3f8; }
+      background: #0cb3f8;
+      padding-left: 5%;
+      padding-right: 10%; }
     body .row .hero-text .btn {
+      width: 144px;
+      height: 42px;
       border-radius: 25px;
       border-width: 1px;
       border-color: #ffffff;
       font-weight: 600;
       font-size: 10px;
       color: #ffffff;
-      height: 40px;
-      padding-left: 25px;
-      padding-right: 25px; }
+      height: 40px; }
     body .row.hero-text .btn img {
       vertical-align: sub;
       padding-right: 15px; }
+    body .row.white {
+      background-color: #ffffff; }
+    body .row.white.form-inline {
+      vertical-align: middle; }
+    body .row.white h5 {
+      color: #292534;
+      font-weight: 400;
+      font-size: 13px;
+      padding-top: 15px;
+      letter-spacing: 1px; }
     body .row.new-thing {
-      background-color: #f5f4f4; }
+      background-color: #f5f4f4;
+      padding-bottom: 75px; }
     body .row.pricing {
       background-color: #222222; }
     body .row .price {
@@ -90,13 +122,28 @@ body {
       body .row .price.alt {
         background: #1b8bf9;
         color: #ffffff; }
+  body .btn-transparent {
+    margin-left: 10%; }
+  body .btn-new {
+    background-color: #0081ff;
+    color: #ffffff;
+    border-radius: 25px;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 10%;
+    width: 60px;
+    height: 20px;
+    box-shadow: 4px 7px 16px 0px rgba(27, 139, 249, 0.4); }
   body .btn-primary {
     background: #ffffff;
+    color: #242526;
     border: solid 2px;
     border-color: #67b2fb;
     border-radius: 25px;
     font-weight: 700;
     font-size: 10px;
-    color: #242526;
     width: 150px;
     height: 42px; }
