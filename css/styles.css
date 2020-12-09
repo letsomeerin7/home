@@ -35,22 +35,22 @@ body {
     text-align: right;
     margin-right: 100px;
     margin-bottom: 50px; }
+  body h5 {
+    font-family: mrs-eaves-xl-serif, georgia, serif;
+    font-weight: 400;
+    font-size: 1.3rem; }
   body p {
     font-family: mrs-eaves-xl-serif, georgia, serif;
     font-weight: 400;
     font-size: 1rem;
     margin-left: 20px;
     margin-right: 20px; }
-  body ul {
-    font-family: mrs-eaves-xl-serif, georgia, serif;
-    font-weight: 400;
-    font-size: 1.3rem; }
-    body ul li {
-      font-size: 1rem; }
-    body ul a {
-      color: black; }
-    body ul a:hover {
-      color: #14868c; }
+  body ul li {
+    font-size: 1rem; }
+  body ul a {
+    color: black; }
+  body ul a:hover {
+    color: #14868c; }
   body span {
     font-family: mrs-eaves-xl-serif, georgia, serif;
     font-weight: 700;

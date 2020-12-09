@@ -36,6 +36,11 @@ body {
     margin-right: 100px;
     margin-bottom: 50px;
   }
+  h5 {
+    font-family: mrs-eaves-xl-serif, georgia, serif;
+    font-weight: 400;
+    font-size: 1.3rem;
+  }
   p {
     font-family: mrs-eaves-xl-serif, georgia, serif;
     font-weight: 400;
@@ -45,9 +50,6 @@ body {
   }
 
   ul {
-    font-family: mrs-eaves-xl-serif, georgia, serif;
-    font-weight: 400;
-    font-size: 1.3rem;
     li {
       font-size: 1rem;
     }
