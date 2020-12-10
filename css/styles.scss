@@ -109,26 +109,6 @@ body {
     }
   }
 
-/* Navbar */
-.navbar {
-  position: relative;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: .5rem;
-  padding-bottom: .5rem;
-}
-
-  /* Home Page */
-  .home {
-    background-color: #14868c;
-    margin: 0px;
-    padding: 0px;
-  }
-
 /* Jumbotron */
 .jumbotron {
   background: url('../images/nice-thing.jpg') center center no-repeat;
@@ -139,6 +119,13 @@ body {
   padding-top: 30%;
   padding-bottom: 25%;
   margin-bottom: 0px;
+}
+
+/* Home Page */
+.home {
+  background-color: #14868c;
+  margin: 0px;
+  padding: 0px;
 }
 
 /* About Me */
