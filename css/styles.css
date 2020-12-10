@@ -2,7 +2,10 @@ body {
   font-size: 10px;
   /* Text */
   /* Navigation */
+  /* Navbar */
+  /* Home Page */
   /* Jumbotron */
+  /* About Me */
   /* Recommendation Lists */ }
   body h1 {
     font-family: novecento-sans, sans-serif;
@@ -84,6 +87,20 @@ body {
     font-weight: 300; }
   body img.social {
     width: 20px; }
+  body .navbar {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem; }
+  body .home {
+    background-color: #14868c;
+    margin: 0px;
+    padding: 0px; }
   body .jumbotron {
     background: url("../images/nice-thing.jpg") center center no-repeat;
     background-size: cover;
@@ -93,10 +110,6 @@ body {
     padding-top: 30%;
     padding-bottom: 25%;
     margin-bottom: 0px; }
-  body .home {
-    background-color: #14868c;
-    margin: 0px;
-    padding: 0px; }
   body .aboutme {
     margin-bottom: 50px; }
   body .recs {
