@@ -46,6 +46,8 @@ body {
     margin-left: 20px;
     margin-right: 20px; }
   body ul li {
+    font-family: mrs-eaves-xl-serif, georgia, serif;
+    font-weight: 400;
     font-size: 1rem; }
   body ul a {
     color: black; }
